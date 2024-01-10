@@ -39,3 +39,10 @@ D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Microsoft.Ident
 D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
 D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Scrutor.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

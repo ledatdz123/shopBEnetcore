@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using shopEcomerceExBE.Model;
 using shopEcomerceExBE.Service.UserService;
@@ -26,6 +27,14 @@ namespace shopEcomerceExBE.Controllers
         public async Task<IActionResult> RegisterUser([FromBody] ApplicationUser assessors)
         {
             var register = _userService.RegisterUser(assessors);
+            return Ok(register);
+        }
+        [HttpGet]
+        [Route("test")]
+        [Authorize]
+        public async Task<IActionResult> Test()
+        {
+            var register = "get thành công";
             return Ok(register);
         }
     }
