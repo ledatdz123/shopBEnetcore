@@ -3,6 +3,7 @@ using shopEcomerceExBE.Model;
 using shopEcomerceExBE.Repos.UserRepos;
 using shopEcomerceExBE.Service.JwtService;
 using System.Reflection;
+using System.Security.Claims;
 
 namespace shopEcomerceExBE.Service.UserService
 {
@@ -10,9 +11,43 @@ namespace shopEcomerceExBE.Service.UserService
     {
         private readonly IUserRepos _repos;
         private readonly IJwtService _jwtService;
-        public UserServiceImpl(IUserRepos repos, IJwtService jwtService) {  
+        private readonly IHttpContextAccessor _contextAccessor;
+        public UserServiceImpl(IUserRepos repos, IJwtService jwtService, IHttpContextAccessor httpContextAccessor) {  
             _repos = repos;
             _jwtService = jwtService;
+            _contextAccessor = httpContextAccessor;
+        }
+
+        public ResponseMessage GetUserLogin()
+        {
+            ResponseMessage rp = new ResponseMessage();
+            try
+            {
+                string message;
+                object data;
+                if (_contextAccessor == null)
+                {
+                    message = "Không có user";
+                    data= null;
+                }
+                else
+                {
+                    message = "get user thành công";
+                    var email = _contextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Email);
+                    data = _repos.GetUserByEmail(email);
+                }
+                rp.data = data;
+                rp.message = message;
+                rp.errorcode = 0;
+            }
+            catch (Exception ex)
+            {
+                rp.status = MessageStatus.error;
+                rp.message = ex.Message;
+                rp.data = null;
+                rp.errorcode = -1;
+            }
+            return rp;
         }
 
         public ResponseMessage LoginUser(UserLogin user)

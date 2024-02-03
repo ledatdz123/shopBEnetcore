@@ -7,5 +7,6 @@ namespace shopEcomerceExBE.Service.UserService
     {
         public ResponseMessage RegisterUser(ApplicationUser user);
         public ResponseMessage LoginUser(UserLogin user);
+        public ResponseMessage GetUserLogin();
     }
 }

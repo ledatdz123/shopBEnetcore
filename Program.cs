@@ -2,8 +2,11 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using shopEcomerceExBE.Common.BaseService;
+using shopEcomerceExBE.Repos.ProductRepos;
 using shopEcomerceExBE.Repos.UserRepos;
+using shopEcomerceExBE.Service.CacheService;
 using shopEcomerceExBE.Service.JwtService;
+using shopEcomerceExBE.Service.ProductService;
 using shopEcomerceExBE.Service.UserService;
 using Swashbuckle.AspNetCore.Filters;
 using System.Text;
@@ -18,6 +21,10 @@ builder.Services.AddScoped<IBaseService, BaseServiceImpl>();
 builder.Services.AddScoped<IUserRepos, UserReposImpl>();
 builder.Services.AddScoped<IUserService, UserServiceImpl>();
 builder.Services.AddScoped<IJwtService, JwtServiceImpl>();
+builder.Services.AddScoped<IProductRepos, ProductReposImpl>();
+builder.Services.AddScoped<IProductService, ProductServiceImpl>();
+builder.Services.AddScoped<ICacheService, CacheServiceImpl>();
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {

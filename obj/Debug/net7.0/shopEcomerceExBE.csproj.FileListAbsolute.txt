@@ -46,3 +46,5 @@ D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Microsoft.Exten
 D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Scrutor.dll
 D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
 D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\netcoreapi\shopEcomerceExBE\shopEcomerceExBE\bin\Debug\net7.0\StackExchange.Redis.dll

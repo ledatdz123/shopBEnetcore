@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zHeN5G6rdsBuXhlK1t7Z5no2vtCuhPgt2Q8gEEYIL7ZuExffhcR6byQt7nH7fjhZuQi+5/1chIet1a9ZVlffSw==",
+  "dgSpecHash": "ElN+NupnaQpKJOTsbA7adiRs5hHsbgdSBE12B15jN1zkiyuNi548aoaWhFdI4J4spjpaN23pIrkXO/uMvEXeVA==",
   "success": true,
   "projectFilePath": "D:\\netcoreapi\\shopEcomerceExBE\\shopEcomerceExBE\\shopEcomerceExBE.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\WIN\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.1.0\\microsoft.extensions.dependencyinjection.2.1.0.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
+    "C:\\Users\\WIN\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
@@ -21,7 +22,9 @@
     "C:\\Users\\WIN\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\npgsql\\6.0.10\\npgsql.6.0.10.nupkg.sha512",
+    "C:\\Users\\WIN\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\scrutor\\3.3.0\\scrutor.3.3.0.nupkg.sha512",
+    "C:\\Users\\WIN\\.nuget\\packages\\stackexchange.redis\\2.7.17\\stackexchange.redis.2.7.17.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\swashbuckle.aspnetcore.filters\\8.0.0\\swashbuckle.aspnetcore.filters.8.0.0.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\swashbuckle.aspnetcore.filters.abstractions\\8.0.0\\swashbuckle.aspnetcore.filters.abstractions.8.0.0.nupkg.sha512",
@@ -29,6 +32,7 @@
     "C:\\Users\\WIN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
+    "C:\\Users\\WIN\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\WIN\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],

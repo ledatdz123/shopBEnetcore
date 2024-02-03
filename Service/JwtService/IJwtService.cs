@@ -1,4 +1,5 @@
-﻿using shopEcomerceExBE.Model;
+﻿
+using shopEcomerceExBE.Model;
 
 namespace shopEcomerceExBE.Service.JwtService
 {
